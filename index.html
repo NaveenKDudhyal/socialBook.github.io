@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialBook WebSite</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/7574be143f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!---------------Navigation Bar-------------->
+    <nav>
+        <div class="nav-left">
+            <img src="./images/logo.png" class="logo">
+            <ul>
+                <li>
+                    <img src="./images/notification.png">
+                    <img src="./images/inbox.png" alt="">
+                    <img src="./images/video.png" alt="">
+                </li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="./images/search.png">
+                <input type="text" placeholder="Search" >
+            </div>
+            <div class="nav-user-icon online" onclick="settingMenuToggle()">
+                <img src="./images/profile-pic.png ">
+            </div>
+        </div>
+        <!------------------Settings Menu------------>
+        <div class="settings-menu">
+            <dic class="settings-menu-inner">
+
+                
+
+                <div class="setting-links">
+                    <img src="./images/setting.png" class="setting-icon">
+                    <a href="#">Go to Settings<img src="./images/arrow.png" 
+                        width="10px"></a> 
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="./images/help.png" class="setting-icon">
+                    <a href="#">Help & Support <img src="./images/arrow.png" 
+                        width="10px"></a> 
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="./images/display.png " class="setting-icon">
+                    <a href="#">Display Setting <img src="./images/arrow.png" 
+                        width="10px"></a> 
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="./images/logout.png " class="setting-icon">
+                    <a href="#">Logout <img src="./images/arrow.png" 
+                        width="10px"></a> 
+                </div>
+            </dic>
+
+        </div>
+
+
+
+
+    </nav>
+
+    <div class="container">
+        <!--------------------Left sidebar------------------>
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="./images/news.png"> Latest News</a>
+                <a href="#"><img src="./images/friends.png"> Friends</a>
+                <a href="#"><img src="./images/group.png"> Group</a>
+                <a href="#"><img src="./images/marketplace.png"> Marketplace</a>
+                <a href="#"><img src="./images/watch.png"> Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <dic class="shortcut-link">
+                <p class="pad">Your Shortcuts</p>
+                <a href="#"><img src="./images/shortcut-1.png" alt="">Web Developers</a>
+                <a href="#"><img src="./images/shortcut-2.png" alt="">Web Design Course</a>
+                <a href="#"><img src="./images/shortcut-3.png" alt="">Full Stach Development</a>
+                <a href="#"><img src="./images/shortcut-4.png" alt="">Website Experts</a>
+            </dic>
+        </div>
+        <!--------------------Main-content------------------>
+        <div class="main-content">
+            <div class="story-galary">
+                <div class="story">
+                    <img src="./images/member-1.png">
+                    <p>Pavana Dudhyal</p>
+                </div>
+                <div class="story">
+                    <img src="./images/member-2.png">
+                    <p>Rushikesh Akude</p>
+                </div>
+                <div class="story">
+                    <img src="./images/member-3.png">
+                    <p>Gurunath Yemul</p>
+                </div>
+                <div class="story">
+                    <img src="./images/member-4.png">
+                    <p>Naveen Dudhal</p>
+                </div>
+            </div>
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="./images/profile-pic.png">
+                    <div>
+                        <p>Jhon Wick</p>
+                        <small>Public <i class="fa-solid fa-square-caret-down"></i></small>
+                    </div>
+                </div>
+                <div class="post-input-container">
+                    <textarea placeholder="Whats in you'r mind, Jhon?" rows="3"></textarea>
+
+                    <div class="add-post-links">
+                        <a href="#"><img src="./images/live-video.png">Live Video</a>
+                        <a href="#"><img src="./images/photo.png">
+                            <Photo>Video
+                        </a>
+                        <a href="#"><img src="./images/feeling.png">Emoji</a>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/profile-pic.png">
+                        <div>
+                            <p>Jhon Wick</p>
+                            <span>June 24 2021,13:40 PM </span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i> </a>
+                </div>
+
+                <p class="post-container-paragraph">This is my first Website development by HTML and CSS and leared
+                    by youtube please go throught it.</p>
+                <img src="./images/feed-image-1.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="./images/like-blue.png">120</div>
+                        <div><img src="./images/comments.png">25</div>
+                        <div><img src="./images/share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./images/profile-pic.png"><i class="fa-solid fa-square-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/profile-pic.png">
+                        <div>
+                            <p>Jhon Wick</p>
+                            <span>June 24 2021,13:40 PM </span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i> </a>
+                </div>
+
+                <p class="post-container-paragraph">This is my first Website development by HTML and CSS and leared
+                    by youtube please go throught it.</p>
+                <img src="./images/feed-image-2.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="./images/like-blue.png">120</div>
+                        <div><img src="./images/comments.png">25</div>
+                        <div><img src="./images/share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./images/profile-pic.png"><i class="fa-solid fa-square-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/profile-pic.png">
+                        <div>
+                            <p>Jhon Wick</p>
+                            <span>June 24 2021,13:40 PM </span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i> </a>
+                </div>
+
+                <p class="post-container-paragraph">This is my first Website development by HTML and CSS and leared
+                    by youtube please go throught it.</p>
+                <img src="./images/feed-image-3.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="./images/like-blue.png">120</div>
+                        <div><img src="./images/comments.png">25</div>
+                        <div><img src="./images/share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./images/profile-pic.png"><i class="fa-solid fa-square-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/profile-pic.png">
+                        <div>
+                            <p>Jhon Wick</p>
+                            <span>June 24 2021,13:40 PM </span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i> </a>
+                </div>
+
+                <p class="post-container-paragraph">This is my first Website development by HTML and CSS and leared
+                    by youtube please go throught it.</p>
+                <img src="./images/feed-image-4.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="./images/like-blue.png">120</div>
+                        <div><img src="./images/comments.png">25</div>
+                        <div><img src="./images/share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./images/profile-pic.png"><i class="fa-solid fa-square-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <button class="button" type="button"> Load More</button>
+
+
+
+
+
+
+        </div>
+        <!--------------------Right-sidebar------------------>
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+
+            <div class="event">
+                <div class="left-evet">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-evet">
+                    <h4>Social Media</h4>
+                    <p><i class="fa-sharp fa-solid fa-location-dot"></i> Willson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-evet">
+                    <h3>22</h3>
+                    <span>April</span>
+                </div>
+                <div class="right-evet">
+                    <h4>Mobile Marketing</h4>
+                    <p><i class="fa-sharp fa-solid fa-location-dot"></i> Willson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="./images/advertisement.png" class="sidebar-ads">
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+
+            <div class="onln-list">
+                <div class="onln">
+                    <img src="./images/member-1.png">
+                </div>
+                <p>Pavana Dudhyal</p>
+            </div>
+            <div class="onln-list">
+                <div class="onln">
+                    <img src="./images/member-2.png">
+                </div>
+                <p>Komal Balingal</p>
+            </div>
+            <div class="onln-list">
+                <div class="onln">
+                    <img src="./images/member-3.png">
+                </div>
+                <p>Anjali Dudhyal</p>
+            </div>
+            <div class="onln-list">
+                <div class="onln">
+                    <img src="./images/member-3.png">
+                </div>
+                <p>Naveen Dudhyal</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Copyright 2021 - EasyTutorial YouTube</p>
+    </div>
+    <script>src="script.js"</script>
+</body>
+
+</html>
